@@ -24,9 +24,9 @@ import tensorflow as tf
 
 from transformers.tf_utils import stable_softmax
 
-from ...activations_tf import get_tf_activation
-from ...modeling_tf_utils import TFPreTrainedModel, get_initializer, keras_serializable, shape_list, unpack_inputs
-from ...utils import (
+from transformers.activations_tf import get_tf_activation
+from transformers.modeling_tf_utils import TFPreTrainedModel, get_initializer, keras_serializable, shape_list, unpack_inputs
+from transformers.utils import (
     ModelOutput,
     add_code_sample_docstrings,
     add_start_docstrings,

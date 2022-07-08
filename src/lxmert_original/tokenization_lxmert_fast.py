@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from ..bert.tokenization_bert_fast import BertTokenizerFast
+from transformers import BertTokenizerFast
 from .tokenization_lxmert import LxmertTokenizer
 
 

@@ -1,7 +1,7 @@
-from lxmert import LXMERT
+from src.lxmert import LXMERT
 
 from src.datasets.mediaeval_dataset import MediaEvalDataset, SimpleMediaEvalDataset
-from utils.params import params
+from src.utils.params import params
 
 
 def main():

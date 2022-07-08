@@ -171,8 +171,6 @@ class LxmertMetrics:
                 ids[query_idx] = query.idx
                 ranks[query_idx] = np.where(ss == query_idx)[0][0]
 
-        print("Image -> Text")
-
         r1 = 100 * len(np.where(ranks < 1)[0]) / len(ranks)
         r5 = 100 * len(np.where(ranks < 5)[0]) / len(ranks)
         r10 = 100 * len(np.where(ranks < 10)[0]) / len(ranks)
@@ -223,7 +221,6 @@ class LxmertMetrics:
                 ids[query_idx] = query.idx
                 ranks[query_idx] = np.where(ss == query_idx)[0][0]
 
-        print("Text -> Image")
 
         r1 = 100 * len(np.where(ranks < 1)[0]) / len(ranks)
         r5 = 100 * len(np.where(ranks < 5)[0]) / len(ranks)
