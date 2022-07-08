@@ -1,0 +1,6 @@
+__pycache__/
+**/*.pickle
+.ipynb_checkpoints/
+.idea/
+src/datasets/
+**/*.out
